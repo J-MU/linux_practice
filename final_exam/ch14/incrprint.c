@@ -8,7 +8,7 @@ int counter =0;
 
 void print_count(void* m){
  for(int i=0; i<NUM; i++){
- 	printf("%d",counter);
+ 	printf("counter = %d\n",counter);
 	sleep(1);
  }
  return NULL;
